@@ -32,6 +32,9 @@
     });
   </script>
   <!-- End of SMOOTH SCROLL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.css"
+    integrity="sha512-DIW4FkYTOxjCqRt7oS9BFO+nVOwDL4bzukDyDtMO7crjUZhwpyrWBFroq+IqRe6VnJkTpRAS6nhDvf0w+wHmxg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="body-1">
@@ -140,17 +143,102 @@
         alt="Social Icon"></a><a href="#" target="_blank" class="social-image social"><img class="instagram-icon"
         src="./socialicons/webicon-instagram.png" alt="Social Icon"></a>
   </div>
-  <div class="contact container-grid" id="contact">
-    <div class="responsive-picture halftone-pattern">
-      <picture><img alt="Placeholder Picture" src="./images/halftone-pattern.png"></picture>
-    </div>
+
+  <div class="imagePreview container-grid" id="imagePreview">
     <form class="form-container contact-form">
-      <h3 class="light">More Coming Soon!</h3>
-      <div class="rule heading-rule light">
-        <hr>
+      <div class="row text-center imageRows tips">
+        <div class="col-md-6">
+          <img class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-items-center d-flex">
+          <select class="form-control form-control-lg" id="tips">
+            <option value="tip_1">Tip 1</option>
+            <option value="tip_2">Tip 2</option>
+            <option value="tip_3">Tip 3</option>
+            <option value="tip_4">Tip 4</option>
+            <option value="tip_5">Tip 5</option>
+            <option value="tip_6">Tip 6</option>
+            <option value="tip_7">Tip 7</option>
+            <option value="tip_8">Tip 8</option>
+            <option value="tip_9">Tip 9</option>
+            <option value="tip_10">Tip 10</option>
+            <option value="tip_11">Tip 11</option>
+            <option value="tip_12">Tip 12</option>
+          </select>
+        </div>
       </div>
+
+      <div class="row text-center imageRows middle">
+        <div class="col-md-6">
+          <img class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-items-center d-flex">
+          <select class="form-control form-control-lg" id="middle">
+            <option value="middle_1">Middle 1</option>
+            <option value="middle_2">Middle 2</option>
+            <option value="middle_3">Middle 3</option>
+            <option value="middle_4">Middle 4</option>
+            <option value="middle_5">Middle 5</option>
+            <option value="middle_6">Middle 6</option>
+            <option value="middle_7">Middle 7</option>
+            <option value="middle_8">Middle 8</option>
+            <option value="middle_9">Middle 9</option>
+            <option value="middle_10">Middle 10</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row text-center imageRows handle">
+        <div class="col-md-6">
+          <img class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-items-center d-flex">
+          <select class="form-control form-control-lg" id="handle">
+            <option value="handle_1">Handle 1</option>
+            <option value="handle_2">Handle 2</option>
+            <option value="handle_3">Handle 3</option>
+            <option value="handle_4">Handle 4</option>
+            <option value="handle_5">Handle 5</option>
+            <option value="handle_6">Handle 6</option>
+            <option value="handle_7">Handle 7</option>
+            <option value="handle_8">Handle 8</option>
+            <option value="handle_9">Handle 9</option>
+            <option value="handle_10">Handle 10</option>
+            <option value="handle_11">Handle 11</option>
+            <option value="handle_12">Handle 12</option>
+          </select>
+        </div>
+      </div>
+
+      <hr />
+
+
+      <div class="form-group">
+        <label for="emailAddress">Email address</label>
+        <input type="email" class="form-control form-control-lg" id="emailAddress" placeholder="Enter email"
+          name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone</label>
+        <input type="text" class="form-control form-control-lg" id="phoneNumber" placeholder="Enter phone number"
+          name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" class="form-control form-control-lg" id="address" placeholder="Enter address" name="address"
+          required>
+      </div>
+      <div class="form-group">
+        <label for="additionalRequests">Additional requests</label>
+        <textarea class="form-control form-control-lg" id="additionalRequests" rows="3"
+          name="additionalRequest"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+
   </div>
+
   <div class="container-grid footer">
     <p class="paragraph copyright"><br>This website was designed by <span class="paragraph-text-7">Philip
         Wells.</span><br></p>
@@ -160,6 +248,10 @@
   <script src="js/outofview.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"
+    integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
